@@ -1,4 +1,4 @@
-import { fib_0, fib_1, fib_2 } from './index'
+import { fib_0, fib_1, fib_2 } from '.'
 
 describe('test fib', () => {
   const data = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144]

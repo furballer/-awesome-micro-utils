@@ -7,21 +7,8 @@ export function fib_0(n: number): number {
   return fib_0(n - 1) + fib_0(n - 2)
 }
 
-export function fib_1(n: number): number {
-  if (n === 0) return 0
-
-  return fn(0, 1, n)
-
-  function fn(curr: number, next: number, n: number): number {
-    if (n === 0) return curr
-
-    return fn(next, curr + next, n - 1)
-  }
-}
-
 export function fib_2(n: number) {
   if (n === 0) return 0
-
   if (n < 3) return 1
 
   let curr = 0
@@ -35,4 +22,16 @@ export function fib_2(n: number) {
   }
 
   return curr
+}
+
+export function fib_1(n: number): number {
+  if (n === 0) return 0
+
+  return fn(0, 1, n)
+
+  function fn(curr: number, next: number, n: number): number {
+    if (n === 0) return curr
+
+    return fn(next, curr + next, n - 1)
+  }
 }

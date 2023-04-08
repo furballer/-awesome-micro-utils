@@ -1,4 +1,4 @@
-import arrayFirst from './index'
+import arrayFirst from '.'
 
 describe('array first', () => {
   it('should throw a type error ', () => {

@@ -1,4 +1,4 @@
-import { getQueryParamsWithSplit, getQueryParamsWithURLSearchParams } from './index'
+import { getQueryParamsWithSplit, getQueryParamsWithURLSearchParams } from '.'
 
 describe('test query params', () => {
   const url = 'url?key0=0&key1=1&key2=2&key1=11'

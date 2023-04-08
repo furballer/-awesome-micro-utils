@@ -1,4 +1,4 @@
-import { equal } from './index'
+import { equal } from '.'
 
 describe('test equan fn', () => {
   it('0.1 + 0.2 = 0.3 true', () => {

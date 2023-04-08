@@ -1,4 +1,4 @@
-import checksort, { Comparator } from './index'
+import checksort, { Comparator } from '.'
 import data from './data'
 
 const comparators: Record<string, Comparator> = {
